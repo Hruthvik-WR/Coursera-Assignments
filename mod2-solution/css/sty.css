@@ -5,7 +5,9 @@
 }
 
 .heading{
-  float: right; background-color: orange;background-size: 70px;border-left: 2px solid black;border-bottom: 2px solid black;
+  float: right; background-color: #8B4513;background-size: 70px;border-left: 2px solid black;border-bottom: 2px solid black;
+  color:#FFF5EE;
+  font-size: 30px;
 
 }
 .pad{
@@ -14,4 +16,6 @@
 	padding-bottom: 3px;
 	padding-left: 12px;
 	display: block;
+	font-size: 20px;
+	font-style: bold;
 }
