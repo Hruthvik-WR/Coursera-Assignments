@@ -9,7 +9,11 @@
 * {
   box-sizing: border-box;
 }
-
+body{
+	margin:0;
+	padding: 0;
+	border: 0;
+}
 p {
   border: 4px solid black;
   background-color: lightgray;
@@ -19,8 +23,6 @@ p {
   margin-left:10px;
   margin-right:10px
   margin-top: 4px;
-
-
   font-family:"Comic Sans MS", cursive, sans-serif;
   color: black;
 }
@@ -75,12 +77,16 @@ h1{
     width: 100%;
   }
 }
+p>span.pad{
+	padding-left: 10px;
+	padding-right: 4px;
+}
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-     border:4px solid black;
+    border:4px solid black;
     margin-left: 30px;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -139,19 +145,24 @@ h1{
 
 				</span>
 				<br>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				<span class="pad">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+				exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</span>
 			</p>
 		</section>
 		
 		<section>		
 			<p class="col-lg-4 col-md-5">
 				<span class="heading">
-					sea food
+					seafood
 					
 				</span>
 				
 				<br>
+				<span class="pad">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+				</span>
 			</p>
 		</section>	
 		<section>		
@@ -162,7 +173,9 @@ h1{
 					
 				</span>
 				<br>
+				<span class="pad">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</span>
 			</p>
 		</section>
 </div>

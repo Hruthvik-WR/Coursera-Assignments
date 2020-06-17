@@ -1,8 +1,17 @@
 .row {
   width: 100%;
+  padding-left: 3px lightgray;
+  padding-right: 3px lightgray;
 }
 
 .heading{
-  float: right; background-color: orange;background-size: text-width;border-left: 2px solid black;border-bottom: 2px solid black;
+  float: right; background-color: orange;background-size: 70px;border-left: 2px solid black;border-bottom: 2px solid black;
 
+}
+.pad{
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 3px;
+	padding-left: 12px;
+	display: block;
 }
